@@ -536,6 +536,15 @@ ul li.highlight {
   background: linear-gradient(top, #ffd14d 40%, #f6c000 80%) no-repeat;
 }
 
+ul li.highlight2 {
+  color: #515151;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(40%, #F1CDD5), color-stop(80%, #E6A5B4)) no-repeat;
+  background: -webkit-linear-gradient(top, #F1CDD5 40%, #E6A5B4 80%) no-repeat;
+  background: -moz-linear-gradient(top, #F1CDD5 40%, #E6A5B4 80%) no-repeat;
+  background: -o-linear-gradient(top, #ffd14d 40%, #f6c000 80%) no-repeat;
+  background: linear-gradient(top, #F1CDD5 40%, #E6A5B4 80%) no-repeat;
+}
+
 /* line 328, ../scss/default.scss */
 .highlight-code slide.current pre > * {
   opacity: 0.25;
