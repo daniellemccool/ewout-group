@@ -1,11 +1,11 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Categorizing Continuous Data',
-    subtitle: 'The good, the bad, and the ugly',
+    title: 'Plan of Analysis',
+    subtitle: '',
     eventInfo: {
-      title: 'Epi Meeting',
-      date: '12/03/2015'
+      title: 'Ewout Group Meeting',
+      date: '16/03/2015'
     },
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
@@ -23,7 +23,7 @@ var SLIDE_CONFIG = {
   // Author information
   presenters: [{
     name: 'Danielle McCool',
-    company: 'PhD Candidate - Schmidt Group',
+    company: 'Schmidt Group, NKI-AVL',
     //gplus: 'http://plus.google.com/1234567890',
     //twitter: '@daniellemccool',
     www: 'http://daniellemc.cool',
