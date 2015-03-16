@@ -3,10 +3,49 @@
 	{
 		"selected_items":
 		[
+			[
+				"ar",
+				"article	Tag"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9745,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "template.html",
+			"settings":
+			{
+				"buffer_size": 19110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "theme/css/default.css",
+			"settings":
+			{
+				"buffer_size": 40967,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var SLIDE_CONFIG = {\n  // Slide settings\n  settings: {\n    title: 'Plan of Analysis',\n    subtitle: '',\n    eventInfo: {\n      title: 'Ewout Group Meeting',\n      date: '16/03/2015'\n    },\n    useBuilds: true, // Default: true. False will turn off slide animation builds.\n    usePrettify: true, // Default: true\n    enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.\n    enableTouch: true, // Default: true. If touch support should enabled. Note: the device must support touch.\n    //analytics: 'UA-XXXXXXXX-1', // TODO: Using this breaks GA for some reason (probably requirejs). Update your tracking code in template.html instead.\n    favIcon: 'images/.png',\n    fonts: [\n      'Open Sans:regular,semibold,italic,italicsemibold',\n      'Source Code Pro'\n    ],\n    //theme: ['mytheme'], // Add your own custom themes or styles in /theme/css. Leave off the .css extension.\n  },\n\n  // Author information\n  presenters: [{\n    name: 'Danielle McCool',\n    company: 'Schmidt Group, NKI-AVL',\n    //gplus: 'http://plus.google.com/1234567890',\n    //twitter: '@daniellemccool',\n    www: 'http://daniellemc.cool',\n    github: 'http://github.com/daniellemccool'\n  }/*, {\n    name: 'Second Name',\n    company: 'Job Title, Google',\n    gplus: 'http://plus.google.com/1234567890',\n    twitter: '@yourhandle',\n    www: 'http://www.you.com',\n    github: 'http://github.com/you'\n  }*/]\n};\n\n",
+			"file": "slide_config.js",
+			"file_size": 1433,
+			"file_write_time": 130708822458749785,
+			"settings":
+			{
+				"buffer_size": 1430,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -43,14 +82,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/dmccool/Google Slides"
+		"/home/dmccool/Google Slides/ewout-group",
+		"/home/dmccool/Google Slides/ewout-group/images",
+		"/home/dmccool/Google Slides/ewout-group/scripts/md",
+		"/home/dmccool/Google Slides/ewout-group/theme",
+		"/home/dmccool/Google Slides/ewout-group/theme/css"
 	],
 	"file_history":
 	[
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -64,6 +107,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"article class",
+			"reflect",
+			"EBB9C4",
+			"B8032D",
+			"red2",
+			"red1",
+			"highlight",
+			"gdbar",
+			"nki",
+			"FBF2F4",
+			"gdbar",
+			"F1CDD5",
+			"ffffff",
+			" #ffffff",
+			"#ffffff",
+			"segue",
+			"ffffff",
+			" #ffffff",
+			"#ffffff",
+			"e6e6e6",
+			" #e6e6e6",
+			"#e6e6e6",
+			"color"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -71,6 +137,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"#e6e6e6"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -81,14 +148,135 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7578,
+								7578
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 385.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "template.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 19110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17283,
+								17283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9236.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "theme/css/default.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28912,
+								28912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 19206.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "slide_config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -159,7 +347,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 248.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
